@@ -8,7 +8,7 @@ import { Producto } from '../interfaces/producto';
   providedIn: 'root'
 })
 export class ProductService {
-  private baseUrl = 'http://localhost:3000/products';
+  private baseUrl = 'https://karla038.github.io/Json-Api-Shoponline/db.json';
 
   constructor(private http: HttpClient) {}
 
