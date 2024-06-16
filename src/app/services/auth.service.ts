@@ -13,6 +13,7 @@ export class AuthService {
   constructor(private http:HttpClient) { }
 
   registerUser(usuario:User){
+    console.log("baseUrl"+this.baseUrl)
     return this.http.post(`${this.baseUrl}/users`, usuario);
   }
 
