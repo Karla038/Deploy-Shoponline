@@ -1,0 +1,21 @@
+{
+  "users": [
+    {
+      "id": "ce79",
+      "fullName": "Karla Moya Diaz",
+      "email": "karladk038@gmail.com",
+      "password": "Karlamoyadiaz9"
+    }
+  ],
+  "products": [
+    {
+      "id": "fa2c",
+      "nombre": "Laptop",
+      "descripcion": "Laptop gamer",
+      "precio": 30,
+      "categoria": "Tecnologia",
+      "cantidad": 10,
+      "estadoInventario": "lowstock"
+    }
+  ]
+}
