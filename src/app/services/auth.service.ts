@@ -8,12 +8,11 @@ import { Observable } from 'rxjs';
 })
 export class AuthService {
 
-  private baseUrl= 'https://karla038.github.io/Json-Api-Shoponline/db.json';
+  private baseUrl= 'http://localhost:3000';
 
   constructor(private http:HttpClient) { }
 
   registerUser(usuario:User){
-    console.log("baseUrl"+this.baseUrl)
     return this.http.post(`${this.baseUrl}/users`, usuario);
   }
 
